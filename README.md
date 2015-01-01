@@ -10,7 +10,6 @@ author: FiLeVeR10
 
 - mednafen
 	- Provides multiple video games emulations
-
 - zenity
 	- Allows file selection to be much easier
 
