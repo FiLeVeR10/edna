@@ -1,5 +1,5 @@
 #########################
-#**Mednafi** - Mednafen UI#
+#**EDNA** - Mednafen UI#
 
 version: 1.0
 author: FiLeVeR10
