@@ -55,22 +55,22 @@ See if it's showing an aditional listing after it's plugged in, if it is then yo
 
 In the `games.sh` file you can clearly see the commands being run and settings.
 
-Lines 20-25
+*Lines 20-25*
 
-	- GDIR = root roms folder
-	- XRES = x resolution value
-	- YRES = y resolution value
-	- FS = fullscreen boolean 
-	- STRCH = strech boolean
+	GDIR = root roms folder
+	XRES = x resolution value
+	YRES = y resolution value
+	FS = fullscreen boolean 
+	STRCH = strech boolean
 
-Lines 27-38
+*Lines 27-38*
 
-	- GPATH = system path inside of root roms folder
-	- OPTIONS = mednafen command settings
+	GPATH = system path inside of root roms folder
+	OPTIONS = mednafen command settings
 
-Lines 48-60
+*Lines 48-60*
 
-	- This executes zenity for the selected system's folder then runs mednafen with the options set by GPATH and OPTIONS for the system.
+	This executes zenity for the selected system's folder then runs mednafen with the options set by GPATH and OPTIONS for the system.
 
 ##############
 # Need ROMS? #
@@ -78,7 +78,7 @@ Lines 48-60
 
 Well I can't provide roms, but I can that you shouldn't try a google search like
 
-"index of" -html -htm -shtml -cfm -php -asp -aspx -pdf nes
+	"index of" -html -htm -shtml -cfm -php -asp -aspx -pdf nes
 
 or try to replace nes at the end with snes, sega, tg16 etc in the url or the resulting search,
 because that very well may give you direct access to many rom files that are publicly available for direct download.
