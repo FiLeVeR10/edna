@@ -43,7 +43,7 @@ See if it's showing an aditional listing after it's plugged in, if it is then yo
 	GDIR="~/Games" #root path to roms folder
 	*replace "~/Games" with the path to the repository
 3. Drop some ROMS in the system folders inside of the Games folder.
-4. Run sh games.sh in the repo folder
+4. Run `sh games.sh` in the repo folder
 5. Select a system.
 6. Select a rom.
 7. Hit `alt+shift+1` to set player 1 controls.
