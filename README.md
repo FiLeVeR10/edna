@@ -76,7 +76,7 @@ In the `games.sh` file you can clearly see the commands being run and settings.
 # Need ROMS? #
 ##############
 
-Well I can't provide roms, but I can that you shouldn't try a google search like
+Well I can't provide roms, but I can say that you shouldn't try a google search like
 
 	"index of" -html -htm -shtml -cfm -php -asp -aspx -pdf nes
 
