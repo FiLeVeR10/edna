@@ -6,7 +6,7 @@ author: FiLeVeR10
 #########################
 
 ################
-# Dependencies #
+## Dependencies ##
 ################
 
 - mednafen
