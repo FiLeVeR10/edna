@@ -5,39 +5,39 @@ version: 1.0
 author: FiLeVeR10
 #########################
 
-################
+##################
 ## Dependencies ##
-################
+##################
 
 - mednafen
 	- Provides multiple video games emulations
 - zenity
 	- Allows file selection to be much easier
 
-############
-# Optional #
-############
+##############
+## Optional ##
+##############
 
 - joystick
 	- Provides support for usb controllers
 
-################
-# Mapping keys #
-################
+##################
+## Mapping keys ##
+##################
 
 To map keys, in play use `alt-shift-n` where n is the player number.
 
-##################
-# USB Controller #
-##################
+####################
+## USB Controller ##
+###################
 
 If using a usb controller you'll need to plug controller in first, run `lsusb` and make sure it's present.
 If you're not sure which listing is the controller, run `lsusb` first, then plug the controller in and run it again
 See if it's showing an aditional listing after it's plugged in, if it is then you're good.
 
-################
-# Installation #
-################
+##################
+## Installation ##
+##################
 
 1. make sure `games.sh` is executable
 2. edit `games.sh` on line 21 and update path to repo folder
@@ -50,9 +50,9 @@ See if it's showing an aditional listing after it's plugged in, if it is then yo
 7. Hit `alt+shift+1` to set player 1 controls.
 7. Play that shit.
 
-#############
-# Customize #
-#############
+###############
+## Customize ##
+###############
 
 In the `games.sh` file you can clearly see the commands being run and settings.
 
@@ -73,9 +73,9 @@ In the `games.sh` file you can clearly see the commands being run and settings.
 
 	This executes zenity for the selected system's folder then runs mednafen with the options set by GPATH and OPTIONS for the system.
 
-##############
-# Need ROMS? #
-##############
+################
+## Need ROMS? ##
+###############
 
 Well I can't provide roms, but I can say that you shouldn't try a google search like
 
