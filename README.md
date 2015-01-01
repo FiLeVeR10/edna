@@ -1,6 +1,8 @@
 #########################
-Mednafi - Mednafen UI
+**Mednafi** - Mednafen UI
+
 version: 1.0
+
 author: FiLeVeR10
 #########################
 
@@ -38,7 +40,7 @@ See if it's showing an aditional listing after it's plugged in, if it is then yo
 # Installation #
 ################
 
-1. make sure game.sh is executable
+1. make sure `games.sh` is executable
 2. edit `games.sh` on line 21 and update path to repo folder
 	GDIR="~/Games" #root path to roms folder
 	*replace "~/Games" with the path to the repository
@@ -55,7 +57,7 @@ See if it's showing an aditional listing after it's plugged in, if it is then yo
 
 In the `games.sh` file you can clearly see the commands being run and settings.
 
-*Lines 20-25*
+**Lines 20-25**
 
 	GDIR = root roms folder
 	XRES = x resolution value
@@ -63,12 +65,12 @@ In the `games.sh` file you can clearly see the commands being run and settings.
 	FS = fullscreen boolean 
 	STRCH = strech boolean
 
-*Lines 27-38*
+**Lines 27-38**
 
 	GPATH = system path inside of root roms folder
 	OPTIONS = mednafen command settings
 
-*Lines 48-60*
+**Lines 48-60**
 
 	This executes zenity for the selected system's folder then runs mednafen with the options set by GPATH and OPTIONS for the system.
 
