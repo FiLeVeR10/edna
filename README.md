@@ -46,7 +46,7 @@ See if it's showing an aditional listing after it's plugged in, if it is then yo
 4. Run sh games.sh in the repo folder
 5. Select a system.
 6. Select a rom.
-7. Hit alt+shift+1 to set player 1 controls.
+7. Hit `alt+shift+1` to set player 1 controls.
 7. Play that shit.
 
 #############
@@ -56,6 +56,7 @@ See if it's showing an aditional listing after it's plugged in, if it is then yo
 In the `games.sh` file you can clearly see the commands being run and settings.
 
 Lines 20-25
+
 	- GDIR = root roms folder
 	- XRES = x resolution value
 	- YRES = y resolution value
@@ -63,10 +64,12 @@ Lines 20-25
 	- STRCH = strech boolean
 
 Lines 27-38
+
 	- GPATH = system path inside of root roms folder
 	- OPTIONS = mednafen command settings
 
 Lines 48-60
+
 	- This executes zenity for the selected system's folder then runs mednafen with the options set by GPATH and OPTIONS for the system.
 
 ##############
