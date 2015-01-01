@@ -1,8 +1,7 @@
 #########################
-**Mednafi** - Mednafen UI
+#**Mednafi** - Mednafen UI#
 
 version: 1.0
-
 author: FiLeVeR10
 #########################
 
