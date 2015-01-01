@@ -9,17 +9,17 @@ author: FiLeVeR10
 ################
 
 - mednafen
-	Provides multiple video games emulations
+	- Provides multiple video games emulations
 
 - zenity
-	Allows file selection to be much easier
+	- Allows file selection to be much easier
 
 ############
 # Optional #
 ############
 
 - joystick
-	Provides support for usb controllers
+	- Provides support for usb controllers
 
 ################
 # Mapping keys #
